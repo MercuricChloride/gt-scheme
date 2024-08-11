@@ -1,1 +1,1 @@
-## Installation```stMetacello new	repository: '';	baseline: 'SchemeEditor';	load```## Load Lepiter				After installing with Metacello, you will be able to execute```#BaselineOfSchemeEditor asClass loadLepiter```
+## Installation```stMetacello new	repository: 'https://github.com/MercuricChloride/gt-scheme.git';	baseline: 'SchemeEditor';	load```## Load Lepiter				After installing with Metacello, you will be able to execute```#BaselineOfSchemeEditor asClass loadLepiter```
