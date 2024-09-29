@@ -6,7 +6,7 @@ Class {
 
 { #category : #'generated-accessing' }
 SchemeParser class >> cacheId [
-	^'2024-08-10T21:23:34.00678-07:00'
+	^'2024-09-29T00:08:24.529932-07:00'
 ]
 
 { #category : #generated }
@@ -26,7 +26,7 @@ SchemeParser class >> definitionComment [
 	: \"" .* \""
 	;
 <symbol>
-	: \w+
+	: [^()\s]+
 	;
 <rparen>
 	: \)
@@ -57,17 +57,17 @@ Atom
 { #category : #generated }
 SchemeParser class >> reduceTable [
 ^#(
-	#(14 1 #reduceActionForAtom1: 358401 false) 
-	#(14 1 #reduceActionForAtom2: 358402 false) 
-	#(14 1 #reduceActionForAtom3: 358403 false) 
-	#(11 1 #reduceActionFor_Form__form____1: 222209 false) 
-	#(9 1 #reduceActionForStart1: 212993 false) 
-	#(10 1 #liftFirstValue: 222209 false) 
-	#(12 1 #liftFirstValue: 246787 false) 
-	#(12 1 #liftFirstValue: 246786 false) 
-	#(12 2 #reduceActionForForm1: 246785 false) 
-	#(11 2 #reduceActionFor_Form__form____2: 222210 false) 
-	#(13 3 #reduceActionForList1: 307201 false)
+	#(14 1 #reduceActionForAtom1: 363521 false) 
+	#(14 1 #reduceActionForAtom2: 363522 false) 
+	#(14 1 #reduceActionForAtom3: 363523 false) 
+	#(11 1 #reduceActionFor_Form__form____1: 227329 false) 
+	#(9 1 #reduceActionForStart1: 218113 false) 
+	#(10 1 #liftFirstValue: 227329 false) 
+	#(12 1 #liftFirstValue: 251907 false) 
+	#(12 1 #liftFirstValue: 251906 false) 
+	#(12 2 #reduceActionForForm1: 251905 false) 
+	#(11 2 #reduceActionFor_Form__form____2: 227330 false) 
+	#(13 3 #reduceActionForList1: 312321 false)
 	).
 ]
 

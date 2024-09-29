@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-08-10T20:26:39.003528-07:00"
+						"dateAndTimeString" : "2024-08-10T20:26:43.335964-07:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "kUJwrsHbDQC61Pq8BiAiSg=="
 				},
-				"code" : ""
+				"code" : "let foo = 123;"
 			}
 		]
 	},
